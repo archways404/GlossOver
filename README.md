@@ -63,8 +63,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name – [@archway404](https://github.com/archways404) - archways@gmx.us
+[@archway404](https://github.com/archways404) - archways@gmx.us
 
-Project Link: [https://github.com/archways404/GlossOver](https://github.com/archways404/GlossOver)
+[https://github.com/archways404/GlossOver](https://github.com/archways404/GlossOver)
 
  
