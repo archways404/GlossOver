@@ -33,9 +33,7 @@ void printMemoryUsage() {
     if (host_page_size(mach_host_self(), &page_size) == KERN_SUCCESS &&
         host_statistics(mach_host_self(), HOST_VM_INFO, (host_info_t)&vm_stats, &count) == KERN_SUCCESS) {
         long long free_memory = (int64_t)vm_stats.free_count * (int64_t)page_size;
-        long long used_memory = ((int64_t)vm_stats.active_count +
-                                 (int64_t)vm_stats.inactive_count +
-                                 (int64_t)vm_stats.wire_count) * (int64_t)page_size;
+        long long used_memory = ((int64_t)vm_stats.active_count + (int64_t)vm_stats.inactive_count + (int64_t)vm_stats.wire_count) * (int64_t)page_size;
         std::cout << "Free memory: " << free_memory / (1024 * 1024) << " MB\n";
         std::cout << "Used memory: " << used_memory / (1024 * 1024) << " MB\n";
     } else {
