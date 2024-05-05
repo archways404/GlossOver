@@ -37,6 +37,9 @@ Follow these steps to set up GlossOver on your Windows system:
 3. **Run the application:**
    ```bash
     ./GlossOver
+
+
+
     ```
 
 ## Usage
@@ -66,5 +69,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [@archway404](https://github.com/archways404) - archways@gmx.us
 
 [https://github.com/archways404/GlossOver](https://github.com/archways404/GlossOver)
-
- 
